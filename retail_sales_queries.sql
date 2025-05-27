@@ -1,10 +1,32 @@
-    -- Monthly revenue of per product
-    SELECT p.product_id, p.product_name, date_format(sale_date, '%Y-%m') as month, SUM(price*quantity) as monthly_revenue,
-    COUNT(sale_id) as number_of_trans, SUM(quantity) as total_items
+-- AVERAGE monthly_revenue, sold_items per product and how many months did it occur to sell
+WITH product_month as(
+    SELECT p.product_id, p.product_name, date_format(sale_date, '%Y-%m') as month, SUM(price*quantity) as monthly_revenue, 
+    COUNT(sale_id) as number_of_transaction, SUM(quantity) as total_items
 	FROM products p
 	INNER JOIN sales s on p.product_id= s.product_id
 	group by p.product_id, p.product_name, date_format(sale_date, '%Y-%m')
-	Order by month, product_name;
+	Order by monthly_revenue DESC)
+		
+    SELECT DISTINCT product_name, ROUND(AVG(monthly_revenue),2) as avg_monthly_revenue, ROUND(AVG(total_items),2) as avg_sold_items, COUNT(month) as month_sold
+    FROM product_month
+    GROUP BY product_name;
+    
+    
+       -- Total_revenue and Quantity sold per product
+	SELECT p.product_name, SUM(price*quantity) as total_revenue, SUM(quantity) as total_items
+    FROM products p
+    INNER JOIN sales s on p.product_id = s.product_id
+    GROUP BY p.product_name;
+    
+    
+    -- Monthly revenue of per product
+    SELECT p.product_id, p.product_name, date_format(sale_date, '%Y-%m') as month, SUM(price*quantity) as monthly_revenue,
+    COUNT(sale_id) as number_of_transaction, SUM(quantity) as total_items
+	FROM products p
+	INNER JOIN sales s on p.product_id= s.product_id
+	group by p.product_id, p.product_name, date_format(sale_date, '%Y-%m')
+	Order by monthly_revenue DESC;
+    
     
     --  Best-Selling Products by Month (Using ROW_NUMBER)
     WITH quantity_table as(
@@ -14,13 +36,13 @@
     GROUP BY  p.product_name, date_format(sale_date, '%Y-%m')),
     
     rank_table as(
-    SELECT *, rank() OVER(partition by month order by total_quantity_sold) as product_rank
+    SELECT *, rank() OVER(partition by month order by total_quantity_sold DESC) as product_rank
     FROM quantity_table)
     
     SELECT *
     FROM rank_table
     WHERE product_rank = 1
-    order by product_name, month;
+    order by total_quantity_sold DESC;
     
    -- Identify Product Sales Trends Across Channels
    -- CTE tables are created for online and store channel, and this was joined using product name and month to make sure that they are joined in the same month
@@ -133,7 +155,7 @@ next_month as(
  FROM monthly_quantity),
  
  is_drop as (
- SELECT *, CASE WHEN previous_sold is not null AND monthly_sold > previous_sold then 1
+ SELECT *, CASE WHEN previous_sold is not null AND monthly_sold < previous_sold then 1
  ELSE 0 END AS months_drop
  FROM previous_quantity)
  
@@ -289,3 +311,10 @@ SELECT *
 FROM filtering 
 WHERE customer_status = 'churned'
 ORDER BY customer_name;
+
+
+
+
+    
+    
+    
