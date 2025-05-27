@@ -40,17 +40,18 @@ To analyze customer behavior, product performance, and sales trends in order to 
 
 > ✨ *Below are additional findings based on my personal SQL analysis of the dataset:*
 
-### 📈 Best Monthly Revenue by Product  
+### 📈 Monthly revenue of per product  
 ![Best Monthly Revenue](Outputs/Monthly%20Revenue%20by%20Product.png)  
 The *Dumbbell Set* had the highest total revenue at **$135**, even though the *Notebook* had the highest quantity sold in a month (**8 units**). The *Pen Set* had the lowest monthly revenue at just **$3.75**.
 
 ### 🛒 Best-Selling Products by Month  
 ![Best-Selling Products by Month](Outputs/Best-Selling%20Products%20by%20Month.png)  
-  - **January**: *Notebook* led with **8 units** sold.  
-  - **February**: Tie between *Wireless Mouse*, *Pen Set*, and *Dumbbell Set* (**3 units** each).  
-  - **March**: Tie between *USB Cable* and *Notebook* (**4 units** each).
+**January**: *Notebook* led with **8 units** sold.  
+**February**: Tie between *Wireless Mouse*, *Pen Set*, and *Dumbbell Set* (**3 units** each).  
+**March**: Tie between *USB Cable* and *Notebook* (**4 units** each).
 
-- **Top Product by Average Monthly Revenue**  
+### Top Product by Average Monthly Revenue**
+  ![Best Monthly Revenue](Outputs/Monthly%20Revenue%20by%20Product.png)  
   The *Dumbbell Set* had the highest **average monthly revenue** at **$112.50**, although it was only sold in **2 months** with a total of **5 items**.
 
 - **Top Product by Total Revenue**  
