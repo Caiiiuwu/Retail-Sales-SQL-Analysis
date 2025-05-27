@@ -40,8 +40,8 @@ To analyze customer behavior, product performance, and sales trends in order to 
 
 > ✨ *Below are additional findings based on my personal SQL analysis of the dataset:*
 
-### 📈 Monthly revenue of per product  
-![Monthly revenue of per product  ](Outputs/avg%20monthly%20by%20revenue.png)  
+### 📈 Monthly Revenue per Product  
+![Monthly Revenue per Product](Outputs/avg%20monthly%20revenue.png)  
 The *Dumbbell Set* had the highest total revenue at **$135**, even though the *Notebook* had the highest quantity sold in a month (**8 units**). The *Pen Set* had the lowest monthly revenue at just **$3.75**.
 
 ### 🛒 Best-Selling Products by Month  
