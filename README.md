@@ -66,7 +66,7 @@ To analyze customer behavior, product performance, and sales trends in order to 
 - **Consistently Performing Products**  
   **None** of the products showed consistent performance — all experienced a **drop in sales** at some point during the analysis period.
 
-- **Repeat Purchases Detected via LAG()**  
+- **Repeat Purchases Detected**  
   Customers who purchased the **same product in consecutive months**:  
   - *Alice Chen*: Water Bottle  
   - *Bob Gomez*: Yoga Mat  
