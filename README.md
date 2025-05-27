@@ -54,7 +54,8 @@ The *Dumbbell Set* had the highest total revenue at **$135**, even though the *N
   ![Best Monthly Revenue](Outputs/Monthly%20Revenue%20by%20Product.png)  
   The *Dumbbell Set* had the highest **average monthly revenue** at **$112.50**, although it was only sold in **2 months** with a total of **5 items**.
 
-- **Top Product by Total Revenue**  
+### 💰 Top Product by Total Revenue  
+![Top Product by Total Revenue](Outputs/Top%20Product%20by%20Total%20Revenue.png)  
   While the *Dumbbell Set* led in average revenue, the *Wireless Mouse* had the **highest total revenue** overall at **$233.91**, from **9 items** sold across **4 different months**.
 
 - **Repeat Customers (Multi-Month Buyers)**  
