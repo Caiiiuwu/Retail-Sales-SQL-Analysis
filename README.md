@@ -89,7 +89,7 @@ The *Dumbbell Set* had the highest total revenue at **$135**, even though the *N
 
 ## 📌 Outcome
 
-This project sharpened my ability to translate raw data into actionable insights using SQL — an essential skill for data analysis and business intelligence roles. I also got to hone my skills in terms of advanced sql functions such as window functions, logical case statements, and creating multiple CTEs to attain the desirable analysis.
+This project enhanced my ability to transform raw data into actionable business insights using SQL — a critical skill for roles in data analysis and business intelligence. It also allowed me to deepen my expertise in advanced SQL techniques, including window functions, logical CASE statements, and the use of multiple Common Table Expressions (CTEs) to achieve targeted analyses.
 
 📂 Feel free to check out the actual files:
 
