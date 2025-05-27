@@ -17,6 +17,7 @@ To analyze customer behavior, product performance, and sales trends in order to 
 - ✅ **Sales Trend Analysis**  
   - Identified product sales trends across different **sales channels** (e.g., in-store, online).
   - Detected products with **consistent sales** and those showing a **decline in quantity sold**.
+  - Identified product comebacks
 
 - ✅ **Customer Behavior**  
   - Analyzed **customer buying patterns**, such as purchase frequency and preferred product categories.
@@ -33,10 +34,40 @@ To analyze customer behavior, product performance, and sales trends in order to 
 - **Products**: product_id, product_name, category, price, etc.
 - **Sales**: sale_id, customer_id, product_id, sale_date, quantity, channel, etc.
 
-## 📈 Sample Insights
+## 🏁 Key Findings
 
-> ✨ *"Product A maintained a steady monthly revenue growth of 12%, while Product C showed a consistent drop in quantity sold starting from Q2."*  
-> ✨ *"70% of customers who made two or more purchases returned within 30 days, suggesting strong brand loyalty."*
+> ✨ *"Product A maintained a steady monthly revenue growth of 12%, while Product C showed a consistent drop in quantity sold starting from Q2."*
+
+> ✨ *Below are additional findings based on my analysis of the dataset:*
+
+- **Monthly Revenue by Product**  
+  The *Dumbbell Set* had the highest total revenue at **$135**, even though the *Notebook* had the highest quantity sold in a month (**8 units**). The *Pen Set* had the lowest monthly revenue at just **$3.75**.
+
+- **Best-Selling Products per Month**  
+  - **January**: *Notebook* was the top-seller with **6 units** sold.  
+  - **February**: Tie between *Wireless Mouse*, *Pen Set*, and *Dumbbell Set* (**3 units** each).  
+  - **March**: Tie between *USB Cable* and *Notebook* (**4 units** each).
+
+- **Repeat Customers (Multi-Month Buyers)**  
+  Found **8 customers** who made purchases in **more than 2 different months**, showing signs of customer retention.
+
+- **Products with Major Drop in Sales (>45%)**  
+  Products that experienced significant month-over-month drop in quantity sold:  
+  - *Notebook*: **−87%**  
+  - *Pen Set*: **−66%**  
+  - *Headphones*, *Wireless Mouse*, *Yoga Mat*: each dropped by **−50%**
+
+- **Consistently Performing Products**  
+  No products showed consistent month-over-month sales growth — **all experienced a drop** at some point.
+
+- **Repeat Purchases Detected via LAG()**  
+  Customers who bought the **same product in consecutive months**:  
+  - *Alice Chen*: Water Bottle  
+  - *Bob Gomez*: Yoga Mat  
+  - *Cathy Li*: Wireless Mouse  
+  - *David Kim*: Notebook
+
+
 
 ## 💡 Key Skills Demonstrated
 
