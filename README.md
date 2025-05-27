@@ -58,8 +58,9 @@ The *Dumbbell Set* had the highest total revenue at **$135**, even though the *N
 ![Top Product by Total Revenue](Outputs/Top%20Product%20by%20Total%20Revenue.png)  
   While the *Dumbbell Set* led in average revenue, the *Wireless Mouse* had the **highest total revenue** overall at **$233.91**, from **9 items** sold across **4 different months**.
 
-- **Repeat Customers (Multi-Month Buyers)**  
-  Identified **8 out of 8 customers** who made purchases in **more than 2 distinct months**, indicating strong customer retention and engagement.
+### 🔁 Repeat Customers (Multi-Month Buyers)  
+![Repeat Customers](Outputs/Repeat%20Customers.png) 
+  Identified **8 out of 8 customers** who made purchases in **more than 2 distinct months**, indicating strong customer retention and engagement. Also showing their most purchased product
 
 - **Products with Major Drop in Sales (>45%)**  
   The following products experienced a significant drop (more than 45%) in quantity sold month-over-month:  
