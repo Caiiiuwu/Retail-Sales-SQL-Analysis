@@ -11,17 +11,20 @@ To analyze customer behavior, product performance, and sales trends in order to 
 - ✅ **Data Cleaning**  
   - Removed duplicate records and handled null values with caution to preserve data integrity.
 
-- ✅ **Revenue Analysis**  
-  - Calculated **monthly revenue** for each product to monitor financial performance over time.
+- ✅ **Revenue per Product Analysis**  
+  - Calculated **monthly revenue** for each product to monitor financial performance over time.  
+  - Identified the top product by **average monthly revenue**.  
+  - Identified the top product by **total revenue**.
 
-- ✅ **Sales Trend Analysis**  
-  - Identified product sales trends across different **sales channels** (e.g., in-store, online).
-  - Detected products with **consistent sales** and those showing a **decline in quantity sold**.
-  - Identified product comebacks
+- ✅ **Quantity Sold per Product Analysis**  
+  - Determined the **best-selling products per month** based on quantity sold.
 
-- ✅ **Customer Behavior**  
-  - Analyzed **customer buying patterns**, such as purchase frequency and preferred product categories.
-  - Measured **customer churn and retention** to assess engagement and loyalty over time.
+- ✅ **Product Sales Drop Analysis**  
+  - Detected products that experienced a **≥45% decline** in revenue on a **month-over-month** basis.
+
+- ✅ **Customer Behavior Analysis**  
+  - Identified **repeat customers** who made purchases in **two or more consecutive months**.  
+  - Detected customers who **repeatedly purchased the same product**.
 
 ## 🧰 Tools & Technologies
 
@@ -36,9 +39,6 @@ To analyze customer behavior, product performance, and sales trends in order to 
 
 ## 🏁 Key Findings
 
-> ✨ *"Product A maintained a steady monthly revenue growth of 12%, while Product C showed a consistent drop in quantity sold starting from Q2."*
-
-> ✨ *Below are additional findings based on my personal SQL analysis of the dataset:*
 
 ### 📈 Monthly Revenue per Product  
 ![Monthly Revenue per Product](Outputs/avg%20monthly%20revenue.png)  
@@ -90,7 +90,3 @@ The *Dumbbell Set* had the highest total revenue at **$135**, even though the *N
 ## 📌 Outcome
 
 This project sharpened my ability to translate raw data into actionable insights using SQL — an essential skill for data analysis and business intelligence roles. 
-
----
-
-📂 Feel free to check out the [SQL queries](./retail_sales_queries.sql) and [sample output screenshots](./sample_outputs/) for a deeper dive.
