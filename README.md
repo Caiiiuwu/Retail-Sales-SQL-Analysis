@@ -40,9 +40,9 @@ To analyze customer behavior, product performance, and sales trends in order to 
 
 > ✨ *Below are additional findings based on my personal SQL analysis of the dataset:*
 
--### 📈 Best Monthly Revenue by Product  
-![Best Monthly Revenue](Outputs/Monthly%20Revenue%20by%20Product.png)
-  The *Dumbbell Set* generated the highest revenue in a single month at **$135**, despite the *Notebook* having the highest monthly quantity sold (**8 units**). The *Pen Set* had the lowest monthly revenue at just **$3.75**.
+### 📈 Best Monthly Revenue by Product  
+![Best Monthly Revenue](Outputs/Monthly%20Revenue%20by%20Product.png)  
+The *Dumbbell Set* had the highest total revenue at **$135**, even though the *Notebook* had the highest quantity sold in a month (**8 units**). The *Pen Set* had the lowest monthly revenue at just **$3.75**.
 
 - **Top Products by Units Sold per Month**  
   - **January**: *Notebook* led with **8 units** sold.  
