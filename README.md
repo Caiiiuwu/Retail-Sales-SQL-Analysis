@@ -50,7 +50,7 @@ The *Dumbbell Set* had the highest total revenue at **$135**, even though the *N
 **February**: Tie between *Wireless Mouse*, *Pen Set*, and *Dumbbell Set* (**3 units** each).  
 **March**: Tie between *USB Cable* and *Notebook* (**4 units** each).
 
-### Top Product by Average Monthly Revenue**
+### Top Product by Average Monthly Revenue
   ![Best Monthly Revenue](Outputs/Monthly%20Revenue%20by%20Product.png)  
   The *Dumbbell Set* had the highest **average monthly revenue** at **$112.50**, although it was only sold in **2 months** with a total of **5 items**.
 
