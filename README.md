@@ -62,8 +62,8 @@ The *Dumbbell Set* had the highest total revenue at **$135**, even though the *N
 ![Repeat Customers](Outputs/Repeat%20Customers.png) 
   Identified **8 out of 8 customers** who made purchases in **more than 2 distinct months**, indicating strong customer retention and engagement. Also showing their most purchased product
 
-- **Products with Major Drop in Sales (>45%)**  
-  The following products experienced a significant drop (more than 45%) in quantity sold month-over-month:  
+### 📉 Products with Major Drop in Sales (>45%)  
+ ![Products with Major Drop in Sales](Outputs/Products%20with%20Major%20Drop%20in%20Sales.png)  
   - *Notebook*: **−87%**  
   - *Pen Set*: **−66%**  
   - *Headphones*, *Wireless Mouse*, *Yoga Mat*: each dropped by **−50%**
