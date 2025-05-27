@@ -91,4 +91,10 @@ The *Dumbbell Set* had the highest total revenue at **$135**, even though the *N
 
 This project sharpened my ability to translate raw data into actionable insights using SQL — an essential skill for data analysis and business intelligence roles. I also got to hone my skills in terms of advanced sql functions such as window functions, logical case statements, and creating multiple CTEs to attain the desirable analysis.
 
+📂 Feel free to check out the actual files:
+
+- 🔍 [SQL Queries](https://github.com/Caiiiuwu/Retail-Sales-SQL-Analysis/blob/main/retail_sales_queries.sql) — Dive into the logic and SQL statements behind each insight.
+- 🖼️ [Sample Output Visuals](https://github.com/Caiiiuwu/Retail-Sales-SQL-Analysis/tree/main/Outputs) — View charts and screenshots generated from the analysis.
+
+
 
