@@ -71,8 +71,8 @@ The *Dumbbell Set* had the highest total revenue at **$135**, even though the *N
 - **Consistently Performing Products**  
   **None** of the products showed consistent performance — all experienced a **drop in sales** at some point during the analysis period.
 
-- **Repeat Purchases Detected**  
-  Customers who purchased the **same product in consecutive months**:  
+### 🔁 Repeat Purchases Detected via LAG()  
+ ![Repeat Purchases Detected](Outputs/Repeat%20Purchases%20Detected.png) 
   - *Alice Chen*: Water Bottle  
   - *Bob Gomez*: Yoga Mat  
   - *Cathy Li*: Wireless Mouse  
